@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+/* Home */
+.home {
+    background-image: url("../images/events-heavenly-header.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.home .overlayer {
+    min-height: 100vh;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.side-nav {
+    width: 15rem;
+    height: 100vh;
+    z-index: 30;
+    display: none;
+}
+.side-nav ul li a {
+    display: inline-block;
+    margin: 3rem;
+    transition: all 0.3s;
+}
+.side-nav ul li a:hover {
+    color: rgba(214, 46, 51, 0.4);;
+}
+.bar-icon {
+    left: 2%;
+    cursor: pointer;
+}
+.closebtn {
+    right: 5%;
+}
+.overlayer h2 {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 500;
+}
+
+/* Slider */
+#slider {
+    cursor: pointer;
+    margin-top: 6rem;
+    background-color:  #E68184;
+}
+#slider p {
+    display: none;
+    padding: 1rem;
+    background-color: #CCCCCC;
+    color: rgb(33, 37, 41);
+}
+#slider h3 {
+    color: white;
+    padding: 1rem;
+}
+
+/* Counter */
+.counter {
+    margin-top: 6rem;
+    background-image: url("../images/invitation-2508607__340.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.counter .layer {
+    padding: 5rem;
+    margin-block: auto;
+    color: white;
+    min-height: 50vh;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.counter .count-day, 
+.counter .count-hours, 
+.counter .count-minutes, 
+.counter .count-seconds {
+    padding: 3.2rem;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+.day, .hours, .minutes {
+    display: inline-block;
+    margin-right: 0.25rem;
+}
+
+
+
+/* Contact */
+.contact-us {
+    margin-top: 6.25rem;
+}
+.contact-us .head h2 {
+    color: rgb(68, 68, 68);
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+.contact-us .head p {
+    color: rgb(119, 119, 119);
+    font-weight: 300;
+}
+.contact-us .head .contact-info h3 {
+    background-color: rgb(68, 68, 68);
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+}
+.contact-us .contact-info p,
+.contact-us .communication p  {
+    color: rgb(119, 119, 119);
+    line-height: 26px;
+    text-align: center;
+}
+.contact-us .head .contact-info .red {
+    background-color: rgb(214, 46, 51);
+}
+.communication i {
+    margin-right: 1.25rem;
+}
+.social-icons {
+    margin-top: 4rem;
+}
+.social-icons i {
+    margin-right: 10px;
+    color: #777;
+    border: 1px solid #999;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+.social-icons i:hover {
+    background-color: #D62E33;
+    color: white;
+    border-color: #D62E33;
+}
+button {
+    margin-top: 1rem;
+    border: 2px solid #D62E33;
+    color: white;
+    background-color: #D62E33;
+}
+
+
